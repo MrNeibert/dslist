@@ -123,18 +123,4 @@ public class Game {
         return Objects.hash(getId());
     }
 
-    @Override
-    public String toString() {
-        return "Game{" +
-                "id=" + id +
-                ", title='" + title + '\'' +
-                ", year=" + year +
-                ", genre='" + genre + '\'' +
-                ", platforms='" + platforms + '\'' +
-                ", score=" + score +
-                ", imgUrl='" + imgUrl + '\'' +
-                ", shortDescription='" + shortDescription + '\'' +
-                ", longDescription='" + longDescription + '\'' +
-                '}';
-    }
 }
